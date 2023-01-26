@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.8" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="org.javaturk.dp.pattern.gof.behavioral.state.account.Test" 
+    project="Design Patterns" file="/Design Patterns/src/org/javaturk/dp/pattern/gof/behavioral/state/account/Test.java" 
+    binary="false" label="test" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="94" y="0"/>    
+    <execution id="2">      
+      <position height="598" width="0" x="0" y="78"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="535" width="0" x="0" y="120"/>    
+    </execution>  
+  </object>  
+  <object id="15" language="java" name="org.javaturk.dp.pattern.gof.behavioral.state.account.Account" 
+    project="Design Patterns" 
+    file="/Design Patterns/src/org/javaturk/dp/pattern/gof/behavioral/state/account/Account.java" binary="false" 
+    label="account" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="6">      
+      <position height="21" width="0" x="0" y="151"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="63" width="0" x="0" y="193"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="63" width="0" x="0" y="319"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="63" width="0" x="0" y="403"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="63" width="0" x="0" y="487"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="63" width="0" x="0" y="571"/>    
+    </execution>  
+  </object>  
+  <object id="27" language="java" name="org.javaturk.dp.pattern.gof.behavioral.state.account.AccountStatus" 
+    project="Design Patterns" 
+    file="/Design Patterns/src/org/javaturk/dp/pattern/gof/behavioral/state/account/AccountStatus.java" binary="false" 
+    label="status" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="18">      
+      <position height="21" width="0" x="0" y="214"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="21" width="0" x="0" y="340"/>    
+    </execution>    
+    <execution id="22">      
+      <position height="21" width="0" x="0" y="424"/>    
+    </execution>    
+    <execution id="24">      
+      <position height="21" width="0" x="0" y="508"/>    
+    </execution>    
+    <execution id="26">      
+      <position height="21" width="0" x="0" y="592"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="main(java.lang.String[]):void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="Account(int,boolean)">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="transfer(int):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="withdraw(int):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="withdraw(int):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="13" operation="withdraw(int):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="17" operation="deposit(int):void">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="19" operation="transfer(int):void">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="21" operation="withdraw(int):void">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>  
+  <message id="23" operation="withdraw(int):void">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="25" operation="withdraw(int):void">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="26"/>  
+  </message>
+</sequence-diagram>

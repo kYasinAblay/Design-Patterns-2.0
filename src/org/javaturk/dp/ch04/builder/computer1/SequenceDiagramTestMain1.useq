@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.8" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="org.javaturk.dp.pattern.gof.creational.builder.computer1.Test" 
+    project="Design Patterns" 
+    file="/Design Patterns/src/org/javaturk/dp/pattern/gof/creational/builder/computer1/Test.java" binary="false" 
+    label="test" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="105" y="0"/>    
+    <execution id="2">      
+      <position height="1151" width="0" x="0" y="119"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="1088" width="0" x="0" y="161"/>    
+    </execution>  
+  </object>  
+  <object id="11" language="java" name="org.javaturk.dp.pattern.gof.creational.builder.computer1.ComputerBuilder" 
+    project="Design Patterns" 
+    file="/Design Patterns/src/org/javaturk/dp/pattern/gof/creational/builder/computer1/ComputerBuilder.java" 
+    binary="false" label="builder" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="6">      
+      <position height="21" width="0" x="0" y="192"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="658" width="0" x="0" y="234"/>    
+    </execution>    
+    <execution id="15">      
+      <position height="115" width="0" x="0" y="318"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="115" width="0" x="0" y="464"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="115" width="0" x="0" y="610"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="115" width="0" x="0" y="756"/>    
+    </execution>  
+  </object>  
+  <object id="38" language="java" name="org.javaturk.dp.pattern.gof.creational.builder.Computer" 
+    project="Design Patterns" file="/Design Patterns/src/org/javaturk/dp/pattern/gof/creational/builder/Computer.java" 
+    binary="false" label="computer" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="10">      
+      <position height="315" width="0" x="0" y="913"/>    
+    </execution>    
+    <execution id="13">      
+      <position height="21" width="0" x="0" y="255"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="21" width="0" x="0" y="391"/>    
+    </execution>    
+    <execution id="29">      
+      <position height="21" width="0" x="0" y="537"/>    
+    </execution>    
+    <execution id="33">      
+      <position height="21" width="0" x="0" y="683"/>    
+    </execution>    
+    <execution id="37">      
+      <position height="21" width="0" x="0" y="829"/>    
+    </execution>  
+  </object>  
+  <object id="53" language="java" name="org.javaturk.dp.pattern.gof.creational.builder.CPU" project="Design Patterns" 
+    file="/Design Patterns/src/org/javaturk/dp/pattern/gof/creational/builder/CPU.java" binary="false" label="cpu" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="40">      
+      <position height="21" width="0" x="0" y="934"/>    
+    </execution>    
+    <execution id="27">      
+      <position height="21" width="0" x="0" y="495"/>    
+    </execution>  
+  </object>  
+  <object id="54" language="java" name="org.javaturk.dp.pattern.gof.creational.builder.HardDrive" 
+    project="Design Patterns" file="/Design Patterns/src/org/javaturk/dp/pattern/gof/creational/builder/HardDrive.java" 
+    binary="false" label="hd" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="42">      
+      <position height="21" width="0" x="0" y="976"/>    
+    </execution>    
+    <execution id="31">      
+      <position height="21" width="0" x="0" y="641"/>    
+    </execution>  
+  </object>  
+  <object id="55" language="java" name="org.javaturk.dp.pattern.gof.creational.builder.RAM" project="Design Patterns" 
+    file="/Design Patterns/src/org/javaturk/dp/pattern/gof/creational/builder/RAM.java" binary="false" label="ram" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="44">      
+      <position height="21" width="0" x="0" y="1018"/>    
+    </execution>    
+    <execution id="46">      
+      <position height="21" width="0" x="0" y="1060"/>    
+    </execution>    
+    <execution id="48">      
+      <position height="21" width="0" x="0" y="1102"/>    
+    </execution>    
+    <execution id="50">      
+      <position height="21" width="0" x="0" y="1144"/>    
+    </execution>    
+    <execution id="23">      
+      <position height="21" width="0" x="0" y="349"/>    
+    </execution>  
+  </object>  
+  <object id="56" language="java" name="org.javaturk.dp.pattern.gof.creational.builder.Display" 
+    project="Design Patterns" file="/Design Patterns/src/org/javaturk/dp/pattern/gof/creational/builder/Display.java" 
+    binary="false" label="display" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="52">      
+      <position height="21" width="0" x="0" y="1186"/>    
+    </execution>    
+    <execution id="35">      
+      <position height="21" width="0" x="0" y="787"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="main(java.lang.String[]):void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="ComputerBuilder()">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="buildComputer():org.javaturk.dp.pattern.gof.creational.builder.Computer">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="start():void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="12" operation="Computer()">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="14" operation="buildRAM():void">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="16" operation="buildCPU():void">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" operation="buildHardDrive():void">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="20" operation="buildDisplay():void">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" operation="RAM()">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="24" operation="setRam(org.javaturk.dp.pattern.gof.creational.builder.RAM):void">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="25"/>  
+  </message>  
+  <message id="26" operation="CPU()">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="28" operation="setCpu(org.javaturk.dp.pattern.gof.creational.builder.CPU):void">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="29"/>  
+  </message>  
+  <message id="30" operation="HardDrive()">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="31"/>  
+  </message>  
+  <message id="32" operation="setHd(org.javaturk.dp.pattern.gof.creational.builder.HardDrive):void">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="33"/>  
+  </message>  
+  <message id="34" operation="Display()">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="35"/>  
+  </message>  
+  <message id="36" operation="setDisplay(org.javaturk.dp.pattern.gof.creational.builder.Display):void">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="37"/>  
+  </message>  
+  <message id="39" operation="start():void">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="40"/>  
+  </message>  
+  <message id="41" operation="start():void">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="42"/>  
+  </message>  
+  <message id="43" operation="loadOSKernelImage():void">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="44"/>  
+  </message>  
+  <message id="45" operation="loadOS():void">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="46"/>  
+  </message>  
+  <message id="47" operation="loadDrivers():void">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="48"/>  
+  </message>  
+  <message id="49" operation="startServices():void">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="50"/>  
+  </message>  
+  <message id="51" operation="start():void">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="52"/>  
+  </message>
+</sequence-diagram>

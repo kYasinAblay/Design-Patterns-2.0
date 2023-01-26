@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.8" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="org.javaturk.dp.pattern.gof.behavioral.memento.Test" project="Design Patterns" 
+    file="/Design Patterns/src/org/javaturk/dp/pattern/gof/behavioral/memento/Test.java" binary="false" label="test" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="48" y="0"/>    
+    <execution id="2">      
+      <position height="598" width="0" x="0" y="118"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="535" width="0" x="0" y="160"/>    
+    </execution>  
+  </object>  
+  <object id="17" language="java" name="org.javaturk.dp.pattern.gof.behavioral.memento.GuiComponent" 
+    project="Design Patterns" 
+    file="/Design Patterns/src/org/javaturk/dp/pattern/gof/behavioral/memento/GuiComponent.java" binary="false" 
+    label="window" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="6">      
+      <position height="21" width="0" x="0" y="191"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="21" width="0" x="0" y="233"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="63" width="0" x="0" y="275"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="21" width="0" x="0" y="359"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="21" width="0" x="0" y="401"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="231" width="0" x="0" y="443"/>    
+    </execution>  
+  </object>  
+  <object id="30" language="java" name="org.javaturk.dp.pattern.gof.behavioral.memento.GuiComponentState" 
+    project="Design Patterns" 
+    file="/Design Patterns/src/org/javaturk/dp/pattern/gof/behavioral/memento/GuiComponentState.java" binary="false" 
+    label="state" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="23">      
+      <position height="21" width="0" x="0" y="506"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="21" width="0" x="0" y="548"/>    
+    </execution>    
+    <execution id="27">      
+      <position height="21" width="0" x="0" y="590"/>    
+    </execution>    
+    <execution id="29">      
+      <position height="21" width="0" x="0" y="632"/>    
+    </execution>  
+  </object>  
+  <object id="31" language="java" name="org.javaturk.dp.pattern.gof.behavioral.memento.GuiComponentMemento" 
+    project="Design Patterns" 
+    file="/Design Patterns/src/org/javaturk/dp/pattern/gof/behavioral/memento/GuiComponentMemento.java" binary="false" 
+    label="memento" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="19">      
+      <position height="21" width="0" x="0" y="296"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="21" width="0" x="0" y="464"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="main(java.lang.String[]):void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="GuiComponent(java.lang.String,int,int,int,int)">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="setMemento(org.javaturk.dp.pattern.gof.behavioral.memento.GuiComponentMemento):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="saveState():void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="setX(int):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="13" operation="setLength(int):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="15" operation="undo():void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="18" operation="setState(org.javaturk.dp.pattern.gof.behavioral.memento.GuiComponentState):void">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="20" operation="getState():org.javaturk.dp.pattern.gof.behavioral.memento.GuiComponentState">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" operation="getX():int">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="24" operation="getY():int">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="25"/>  
+  </message>  
+  <message id="26" operation="getLength():int">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="28" operation="getWidth():int">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="29"/>  
+  </message>
+</sequence-diagram>

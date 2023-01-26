@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.8" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="org.javaturk.dp.pattern.gof.behavioral.chnOfRspnsblty.StandardCallTaker" 
+    project="Design Patterns" 
+    file="/Design Patterns/src/org/javaturk/dp/pattern/gof/behavioral/chnOfRspnsblty/StandardCallTaker.java" 
+    binary="false" label="standardCallTaker" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="67" y="0"/>    
+    <execution id="2">      
+      <position height="220" width="0" x="0" y="159"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="157" width="0" x="0" y="201"/>    
+    </execution>  
+  </object>  
+  <object id="11" language="java" name="org.javaturk.dp.pattern.gof.behavioral.chnOfRspnsblty.CallTaker" 
+    project="Design Patterns" 
+    file="/Design Patterns/src/org/javaturk/dp/pattern/gof/behavioral/chnOfRspnsblty/CallTaker.java" binary="false" 
+    label="callTaker" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="6">      
+      <position height="21" width="0" x="0" y="232"/>    
+    </execution>  
+  </object>  
+  <object id="12" language="java" name="org.javaturk.dp.pattern.gof.behavioral.chnOfRspnsblty.StandardCustomer" 
+    project="Design Patterns" 
+    file="/Design Patterns/src/org/javaturk/dp/pattern/gof/behavioral/chnOfRspnsblty/StandardCustomer.java" 
+    binary="false" label="customer" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="8">      
+      <position height="21" width="0" x="0" y="274"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="21" width="0" x="0" y="316"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="answer(org.javaturk.dp.pattern.gof.behavioral.chnOfRspnsblty.StandardCustomer):void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="answer(org.javaturk.dp.pattern.gof.behavioral.chnOfRspnsblty.StandardCustomer):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="askAQuestion():void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="setAnswer(java.lang.String):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>
+</sequence-diagram>
